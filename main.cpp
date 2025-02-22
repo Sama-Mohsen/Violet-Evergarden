@@ -1,13 +1,10 @@
-//NOTE: If there are any errors due to the irrklang API, please comment out lines 5, 42, 48, 49, and 53.
 #include <GL/glut.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <irrKlang.h>
 #include <cmath>
 #include <iostream>
 
 using namespace std;
-using namespace irrklang;
 
 void InitGraphics(int argc, char *argv[]);
 void initGL();
@@ -38,18 +35,13 @@ void drawCircle(double x0, double y0, double rX, double rY, double R1,double G1,
 void drawConcavePolygon(double vertices[][2], int size, double r1, double g1, double b1, double alfa1=1, bool RGBA2=false, double r2=0,double g2=0,double b2=0,double alfa2=1);
 
 int layer=0;
-ISoundEngine* sceneThemeMusic= createIrrKlangDevice();
-
 
 int main(int argc, char* argv[])
 {
     system("clear");
-    sceneThemeMusic->play2D("The Long Night.mp3", true);
-    cout<<"NOTE: THERE IS MUSIC (Music from the anime)\nIT'S UP TO YOU TO LISTEN OR NOT :)\n\n";
     cout<<"Please press D || d to change layer && ESC to EXIT\n";
     initGL();
     InitGraphics(argc, argv);
-    sceneThemeMusic->drop();
     return 0;
 }
 
