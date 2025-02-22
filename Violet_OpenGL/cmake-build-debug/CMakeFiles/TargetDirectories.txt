@@ -1,3 +1,0 @@
-/home/sama/CLionProjects/Violet Evergarden/Violet_OpenGL/cmake-build-debug/CMakeFiles/Violet_OpenGL.dir
-/home/sama/CLionProjects/Violet Evergarden/Violet_OpenGL/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sama/CLionProjects/Violet Evergarden/Violet_OpenGL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
